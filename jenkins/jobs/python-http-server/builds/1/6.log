@@ -1,3 +1,0 @@
-[workspace] Running shell script
-+ sudo docker-compose down --remove-orphans
-Removing network workspace_default

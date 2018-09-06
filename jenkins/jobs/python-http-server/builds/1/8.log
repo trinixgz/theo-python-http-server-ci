@@ -1,11 +1,0 @@
-[workspace] Running shell script
-+ sudo docker-compose up -d
-Creating network "workspace_default" with the default driver
-Creating workspace_python-http-server_1 ... 
-[1A[2KCreating workspace_python-http-server_1 ... [31merror[0m[1B
-ERROR: for workspace_python-http-server_1  Cannot start service python-http-server: oci runtime error: container_linux.go:247: starting container process caused "exec: \"/opt/python-http-server_2/app.py\": permission denied"
-
-
-ERROR: for python-http-server  Cannot start service python-http-server: oci runtime error: container_linux.go:247: starting container process caused "exec: \"/opt/python-http-server_2/app.py\": permission denied"
-
-Encountered errors while bringing up the project.
